@@ -1,0 +1,47 @@
+header {
+    min-height: 70px;
+    background-color: white;
+}
+
+.debug {
+    border: 1px dashed red;
+}
+
+#lateral-nav {
+    background-color: darkblue;
+    min-height: calc(100vh - 70px);
+}
+
+
+#top-nav {
+    background-color: blue;
+    height: 150px;
+}
+
+.mycontainer {
+    min-height: calc(100vh - 70px);
+
+}
+
+.my-little-container {
+    min-height: calc(100vh - 220px);
+}
+
+#classroom {
+    background-color: grey;
+}
+
+#todo {
+    background-color: yellow;
+}
+
+#faq {
+    background-color: orange;
+
+}
+
+#chart {
+    min-height: 700px;
+    background-color: red;
+
+}
