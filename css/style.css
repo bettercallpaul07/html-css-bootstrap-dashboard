@@ -36,11 +36,45 @@ main {
     width: 100%;
 }
 
+.form-control {
+    background-color: #e5e5e5;
+}
+
+#add-button {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid white;
+    vertical-align: middle;
+    padding: 0px 8px;
+    border-radius: 5px;
+}
+
+.panel {
+    border: 1px solid grey;
+}
+
+.panel-heading {
+    background-color: lightgray;
+    border-bottom: 1px solid grey;
+}
+
+
+
+#stats-img > img {
+    width: 100%;
+}
+
+#stats-img {
+    border: 1px solid gray;
+}
 
 #classroom-header {
     background-color: #1b72e8;
     width: 100%;
+    color: white;
 }
+
+
 
 
 main > aside {
