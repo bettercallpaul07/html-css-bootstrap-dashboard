@@ -12,49 +12,103 @@
     </head>
 
     <body>
-        <header class="container-fluid">
-            <div class="container">
+        <header id="main-header" class="bg-black container-fluid">
+            <div class="row">
+                <div class="col-auto debug">
+                    LEFT
+                </div>
+                <div class="col debug text-center">
+                    CENTER
+                </div>
+                <div class="col-auto debug">
+                    RIGHT
+                </div>
 
             </div>
 
         </header>
 
-        <main class="container-fluid">
-            <div class="row">
-                <div id="lateral-nav" class="col-sm-1">
-                </div>
-                <div class="col-sm-11 mycontainer debug">
-                    <div class="row debug">
-                        <div id="top-nav" class="col-sm-12 debug">
-
-                        </div>
-
-                        <div class="my-little-container col-8 debug">
-                            <div class="row">
-                                <div id="classroom" class="col-sm-12 h-75">
-
-                                </div>
-                                <div id="faq" class="col-sm-12">
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col-4 debug">
-                            <div class="row">
-                                <div id="todo">
-
-                                </div>
-
-                                <div id="chart">
-
-                                </div>
-                            </div>
-                        </div>
+        <main class="bg-dark">
+            <aside class="bg-info p-3">
+                <div class="py-4">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Stats</a>
+                            </li>
+                            <li>
+                                <a href="#">Signals</a>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
+
+                <div class="py-4" >
+                    BOTTOM
+                </div>
+
+            </aside>
+
+            <section id="main-content" class="bg-light">
+                <header id="classroom-header" class="bg-warning">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-sm-4 col-lg-6 debug">
+                                LEFT
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-4 debug">
+                                CENTER
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-2 debug order-first order-sm-last">
+                                RIGHT
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <section class="bg-success">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-8 pb-4 debug">
+                                <div>
+                                    Prossime Classi
+                                </div>
+
+                            </div>
+                            <div class="col-4 pb-4 debug">
+                                <div>
+                                   Todo 
+                                </div>
+                            </div>
+
+                            <div class="col-8 pb-4 debug">
+                                <div>
+                                    FAQ
+                                </div>
+
+                            </div>
+                            <div class="col-4 pb-4 debug">
+                                <div>
+                                    Utenti Attivi
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+
+
+            </section>
         </main>
 
 
