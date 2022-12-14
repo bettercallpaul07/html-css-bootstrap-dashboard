@@ -64,6 +64,8 @@ main {
 }
 
 
+
+
 #stats-img > img {
     width: 100%;
 }
@@ -150,9 +152,21 @@ main > aside ul li a {
 
 }
 
-#stats {
+/* #stats {
     padding-bottom: 10px;
     padding-top: 10px;
     border: 1px solid lightgray;
     background-color: white;
+} */
+
+.classroom-h h2,p {
+    display: inline;
 }
+
+.classroom-h p, .botton-header {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 4px;
+}
+
