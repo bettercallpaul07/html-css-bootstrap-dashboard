@@ -25,10 +25,6 @@ main {
     display: flex;
 }
 
-.debug {
-    border: 1px dashed red;
-}
-
 .img-logo {
     display: flex;
 }
@@ -63,7 +59,10 @@ main {
     border: 1px solid grey;
 }
 
-
+#stats {
+    border: 1px solid grey;
+    padding-top: 4px;
+}
 
 
 #stats-img > img {
