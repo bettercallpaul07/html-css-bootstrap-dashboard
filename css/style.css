@@ -170,3 +170,19 @@ main > aside ul li a {
     padding: 4px;
 }
 
+@media all and (max-width: 992px) {
+
+    main aside {
+        width: 100px;
+    }
+    
+    .img-logo img {
+        src: url(img/mobile-logo.png);
+    }
+
+    aside ul li a {
+        display: none;
+    }
+
+
+}

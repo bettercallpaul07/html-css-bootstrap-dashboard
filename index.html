@@ -108,7 +108,34 @@
                             <div class="col-12 col-sm-4 col-lg-2 py-3 order-first order-sm-last">
                                 Nuovo studente
                                 <div id="add-button">
-                                    <span>+</span>
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                                    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                      <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                        
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      </div>
+                                      <div class="offcanvas-body text-black">
+                                        <form>
+                                            <div class="mb-3 d-flex">
+                                              <label class="form-label me-3">Nome</label>
+                                              <input type="text" class="form-control">
+
+                                              <label class="form-label me-3 ms-3">Cognome</label>
+                                              <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-3 d-flex">
+                                                <label for="exampleInputPassword1" class="form-label me-3">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                              </div>
+
+                                              <button type="submit" class="btn btn-primary">Salva</button>
+                                              <button type="submit" class="btn btn-primary">Svuota</button>
+
+                                            </form>
+                                      </div>
+                                    </div>                                    
                                 </div>
                             </div>
 
@@ -121,7 +148,7 @@
                 <section>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-8 pb-4" id="next-class">
+                            <div class=" col-12 col-lg-8 pb-4" id="next-class">
                                 <div class="panel panel-default my-3">
                                     <div class="panel-heading fs-5 p-2">Prossime Classi</div>
                                     <div class="panel-body my-2 p-3">
@@ -285,7 +312,7 @@
                                   </div>
 
                             </div>
-                            <div class="col-4 pb-4" id="todo">
+                            <div class="col-12 col-lg-4 pb-4" id="todo">
                                 <div class="panel panel-default my-3">
                                     <div class="panel-heading fs-5 p-2">Todo</div>
                                     <div class="panel-body my-2 p-3">
@@ -321,7 +348,7 @@
                                   </div>
                             </div>
 
-                            <div class="col-8 pb-4" id="faq">
+                            <div class="col-12 col-lg-8 pb-4" id="faq">
                                 <div class="panel panel-default my-3">
                                 <div class="panel-heading fs-5 p-2">F.A.Q.</div>
                                     <div class="panel-body my-2 p-3">
@@ -362,7 +389,7 @@
 
                             </div>
 
-                            <div class="col-4 pb-4" id="stats">
+                            <div class="col-12 col-lg-4 pb-4" id="stats">
                                 <div class="card" style="width: 100%">
                                     <img src="img/stats.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body bg-light">
