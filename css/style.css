@@ -59,6 +59,10 @@ main {
     border-bottom: 1px solid grey;
 }
 
+.todocard {
+    border: 1px solid grey;
+}
+
 
 #stats-img > img {
     width: 100%;
@@ -139,18 +143,16 @@ main > aside ul li a {
     overflow: auto;
 }
 
-
-#classroom {
-    background-color: grey;
-}
-
-#todo {
-    background-color: yellow;
-}
-
-#faq {
-    background-color: orange;
+#stats .list-group {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
 
 }
 
-
+#stats {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
